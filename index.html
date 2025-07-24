@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" 
+          href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+          integrity=
+"sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+             crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <!-- Navbar header section -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <h2 class="logo-heading">Mohammad Nadeem</h2>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars hamburger-icon"></i>
+                <i class="fas fa-times cross-icon"></i>
+            </div>
+            <div class="menu">
+                <ul class="menu-list">
+                    <li class="menu-list-items">
+                        <a class="links" href="#home">
+                              Home
+                          </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#portfolio">
+                              Portfolio
+                          </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#about">
+                              About
+                          </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#services">
+                              Services
+                          </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#contact">
+                              Contact Me
+                          </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main hero banner -->
+    <section id="home" class="hero">
+        <div class="intro">
+            <div class="headings">
+                <h3 class="greet-heading">Hello, I'm</h3>
+                <h1 class="my-heading">Mohammad Nadeem</h1>
+                <h4 class="sub-heading">
+                  I am an intern at CODSOFT, specializing in Web Development and Data Science.
+                </h4>
+            </div>
+            <div class="intro-buttons">
+              <a href="mailto:nadeemmohammad.0021@gmail.com" class="btn-link">
+                <button class="btn common-btn">Hire Me</button>
+            </a>
+            
+                <a href="https://www.linkedin.com/in/nadeem-mohammad-8bab72261/" class="btn-link">
+    <button class="btn ghost-btn">Get Resume</button>
+</a>
+
+
+              
+            </div>
+        </div>
+        <div class="profile-image">
+          <img src="Images\img.jpeg" alt="Profile Image">
+      </div>
+      
+      <style>
+        .profile-image {
+            display: inline-block;
+            padding: 15px; /* Padding around the image */
+            margin: 30px; /* Margin to space out from other content */
+            border: 7px solid #008080; /* Teal border */
+            border-radius: 25px; /* Rounded corners */
+            background-color: #f0f0f0; /* Light background inside the frame */
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25); /* Strong shadow for a more dramatic effect */
+            width: 300px; /* Width of the container */
+            height: 300px; /* Height of the container */
+            transition: all 0.3s ease-in-out; /* Smooth transition for hover effects */
+        }
+      
+        .profile-image img {
+            display: block;
+            width: 100%; /* Ensure the image fills the container */
+            height: 100%; /* Ensure the image fits the container height */
+            object-fit: cover; /* Maintain the aspect ratio of the image */
+            border-radius: 25px; /* Matching rounded corners */
+            transition: transform 0.3s ease-in-out; /* Smooth zoom effect */
+        }
+      
+        /* Hover Effect */
+        .profile-image:hover {
+            border-color: #ff6f61; /* Coral border color on hover */
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35); /* Stronger shadow on hover */
+            transform: scale(1.05); /* Slightly enlarge the container */
+        }
+      
+        .profile-image:hover img {
+            transform: scale(1.1); /* Slightly enlarge the image on hover */
+        }
+      
+        /* Border Glow Animation */
+        @keyframes border-glow {
+            0% { border-color: #008080; } /* Teal */
+            50% { border-color: #9370db; } /* Lavender */
+            100% { border-color: #008080; } /* Teal */
+        }
+      
+        /* Apply glow animation when hovering */
+        .profile-image:hover {
+            animation: border-glow 1.5s ease-in-out infinite; /* Border glow animation */
+        }
+      </style>
+                  
+      
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="portfolio-heading">
+            <h1 class="my-heading text-center">Featured Portfolio</h1>
+        </div>
+        <div class="portfolio-content">
+            <div class="my-row">
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="Images\portfolio_imgs\web_design.svg" 
+                                 alt="Web Design Image">
+                        </div>
+                        <h3 class="greet-heading blue-text">Web Design</h3>
+                        <p class="small-para blue-text">Designing</p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="Images\portfolio_imgs\web_dev.svg" 
+                                 alt="Web Development Image">
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                              Web Development
+                          </h3>
+                        <p class="small-para blue-text">Development</p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="Images\portfolio_imgs\seo.svg" alt="SEO Image">
+                        </div>
+                        <h3 class="greet-heading blue-text">SEO</h3>
+                        <p class="small-para blue-text">Optimization</p>
+                    </div>
+                </div>
+            </div>
+            <div class="my-row">
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="Images\portfolio_imgs\content.svg" 
+                                 alt="Content Writting Image">
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                              Content Writing
+                          </h3>
+                        <p class="small-para blue-text">Writing</p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="Images\portfolio_imgs\wordpress.svg" 
+                                 alt="Wordpress Image">
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                              WordPress Dev
+                          </h3>
+                        <p class="small-para blue-text">
+                              Content Management System
+                          </p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="Images\portfolio_imgs\video.svg" 
+                                 alt="Video Editing Image">
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                              Video Editing
+                          </h3>
+                        <p class="small-para blue-text">Editing</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+<section id="about" class="about">
+  <div class="about-text">
+      <h1 class="my-heading">About Me</h1>
+      <p class="lead-para">
+          Hi, I'm Nadeem Mohammad, a passionate software engineer and technology enthusiast with a focus on building scalable and impactful solutions. With years of experience in software development, I’ve had the opportunity to work across various domains, including web development, cloud computing, and data-driven applications. My expertise lies in developing robust, high-performance applications that solve real-world problems.
+      </p>
+      <p>
+          I thrive on learning new technologies and frameworks, and am always on the lookout for innovative ways to solve complex challenges. My journey in tech has allowed me to contribute to various open-source projects and collaborate with teams to deliver high-quality software solutions.
+      </p>
+      <p>
+          With a strong foundation in coding, system architecture, and problem-solving, I’m committed to lifelong learning and continuously improving my skills. I’m also an advocate for mentorship and sharing knowledge with the next generation of tech enthusiasts. Whether it's solving coding problems, collaborating on projects, or contributing to tech communities, I’m always eager to grow and make an impact.
+      </p>
+  </div>
+  <div class="about-image">
+      <img src="Images\portfolio_imgs\img.svg" alt="About Image">
+  </div>
+</section>
+
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="services-heading">
+            <h1 class="my-heading text-center">My Services</h1>
+        </div>
+        <div class="services-content">
+            <div class="my-row">
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">Web Design</h3>
+                        <p class="small-para">
+                            Web development refers to the creating, 
+                              building, and maintaining
+                            of websites. It includes aspects such as 
+                              web design, web publishing,
+                            web programming, and database management. 
+                              It is the creation of an
+                            application that works over the internet 
+                              i.e. websites.
+                        </p>
+                        <p class="small-para">
+                            Web development refers to the creating, 
+                              building, and maintaining
+                            of websites. It includes aspects such as 
+                              web design, web publishing,
+                            web programming, and database management. 
+                              It is the creation of an
+                            application that works over the internet 
+                              i.e. websites.
+                        </p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                              Web Development
+                          </h3>
+                        <p class="small-para">
+                            Web development refers to the creating, 
+                              building, and maintaining
+                            of websites. It includes aspects such as 
+                              web design, web publishing,
+                            web programming, and database management. 
+                              It is the creation of an
+                            application that works over the internet 
+                              i.e. websites.
+                        </p>
+                        <p class="small-para">
+                            Web development refers to the creating, 
+                              building, and maintaining
+                            of websites. It includes aspects such as 
+                              web design, web publishing,
+                            web programming, and database management. 
+                              It is the creation of an
+                            application that works over the internet 
+                              i.e. websites.
+                        </p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">SEO</h3>
+                        <p class="small-para">
+                            Web development refers to the creating, 
+                              building, and maintaining
+                            of websites. It includes aspects such as 
+                              web design, web publishing,
+                            web programming, and database management. 
+                              It is the creation of an
+                            application that works over the internet 
+                              i.e. websites.
+                        </p>
+                        <p class="small-para">
+                            Web development refers to the creating, 
+                              building, and maintaining
+                            of websites. It includes aspects such as 
+                              web design, web publishing,
+                            web programming, and database management. 
+                              It is the creation of an
+                            application that works over the internet 
+                              i.e. websites.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="my-row">
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                              Content Writting
+                          </h3>
+                        <p class="small-para">
+                            Web development refers to the creating, 
+                              building, and maintaining of websites. 
+                              It includes aspects such as web design, 
+                              web publishing, web programming, and 
+                              database management. It is the creation 
+                              of an application that works over the 
+                              internet i.e. websites.
+                        </p>
+                        <p class="small-para">
+                            Web development refers to the creating, 
+                              building, and maintaining of websites. 
+                              It includes aspects such as web design, 
+                              web publishing, web programming, and 
+                              database management. It is the creation of an
+                            application that works over the internet i.e. 
+                              websites.
+                        </p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fab fa-wordpress-simple"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                              WordPress Dev
+                          </h3>
+                        <p class="small-para">
+                            Web development refers to the creating, 
+                              building, and maintaining of websites. 
+                              It includes aspects such as web design, 
+                              web publishing, web programming, and 
+                              database management. It is the creation 
+                              of an application that works over the 
+                              internet i.e. websites.
+                        </p>
+                        <p class="small-para">
+                            Web development refers to the creating, 
+                              building, and maintaining
+                            of websites. It includes aspects such as 
+                              web design, web publishing,
+                            web programming, and database management. 
+                              It is the creation of an
+                            application that works over the internet 
+                              i.e. websites.
+                        </p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fas fa-video"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                              Video Editing
+                          </h3>
+                        <p class="small-para">
+                            Web development refers to the creating, 
+                              building, and maintaining
+                            of websites. It includes aspects such as 
+                              web design, web publishing,
+                            web programming, and database management. 
+                              It is the creation of an
+                            application that works over the internet 
+                              i.e. websites.
+                        </p>
+                        <p class="small-para">
+                            Web development refers to the creating, 
+                              building, and maintaining
+                            of websites. It includes aspects such as 
+                              web design, web publishing,
+                            web programming, and database management. 
+                              It is the creation of an
+                            application that works over the internet 
+                              i.e. websites.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact me section -->
+    <section class="contact" id="contact">
+        <div class="contact-heading">
+            <h1 class="my-heading text-center">Contact Me</h1>
+        </div>
+        <div class="contact-content">
+            <div class="contact-form-container">
+                <h1 class="greet-heading">Get In Touch</h1>
+                <form class="contact-form">
+                    <input class="form-controls" type="text" 
+                           placeholder="Your Name">
+                    <input class="form-controls" type="text" 
+                           placeholder="Your Email">
+                    <input class="form-controls" type="text" 
+                           placeholder="Your Phone">
+                    <textarea class="form-controls" 
+                              placeholder="Write your message" 
+                              name="message" id="" cols="30"
+                              rows="10">
+                      </textarea>
+                    <input class="form-btn btn common-btn" 
+                           type="submit" value="Send Message">
+                </form>
+            </div>
+            <div class="contact-details">
+                <h1 class="greet-heading">My Contact Details</h1>
+                <div class="details">
+                    <h5 class="contact-heading">EMAIL</h5>
+                    <p class="contact-text">nadeemmohammad.0021@gmail.com</p>
+                </div>
+                <div class="details">
+                    <h5 class="contact-heading">PHONE</h5>
+                    <p class="contact-text">+91 0123456789</p>
+                </div>
+                <div class="details">
+                    <h5 class="contact-heading">FAX</h5>
+                    <p class="contact-text">+91 0123456789</p>
+                </div>
+                <div class="details">
+                    <h5 class="contact-heading">ADDRESS</h5>
+                    <p class="contact-text">San Francisco, CA</p>
+                    <p>4th Floor8 Lower</p>
+                    <p>San Francisco street, M1 50F</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer section -->
+    <footer class="footer">
+        <div class="footer-content text-center">
+            <h4>
+                Copyright © 2024 All rights reserved |
+                Developed by <a href="https://github.com/Nadeem-mohammad0021"><b>@ Mohammad Nadeem</b></a>
+            </h4>
+            <div class="social-links">
+                <div class="footer-menu">
+                    <ul class="footer-menu-list">
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="#">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+        integrity=
+"sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+      </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
