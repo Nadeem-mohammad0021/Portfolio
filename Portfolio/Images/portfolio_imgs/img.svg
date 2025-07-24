@@ -1,0 +1,58 @@
+<svg id="f7d4bc24-3b8b-4d85-bd9a-34a4ff1893c3" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="1120" height="699" viewBox="0 0 1120 699">
+  <title>creative design</title>
+  
+  <!-- Background Circles -->
+  <circle cx="300" cy="300" r="200" fill="#f4a300"/>
+  <circle cx="850" cy="400" r="150" fill="#b1e5f0"/>
+  <circle cx="600" cy="80" r="100" fill="#ff4b5c"/>
+  
+  <!-- Abstract Ellipses -->
+  <ellipse cx="400" cy="600" rx="250" ry="30" fill="#2e3b4e"/>
+  <ellipse cx="850" cy="650" rx="180" ry="25" fill="#ff6584"/>
+  
+  <!-- Floating Rectangles -->
+  <rect x="120" y="150" width="60" height="60" fill="#ffffff"/>
+  <rect x="180" y="230" width="80" height="80" fill="#ff6a00"/>
+  <rect x="170" y="320" width="50" height="50" fill="#009688"/>
+  
+  <!-- Central Cluster of Shapes -->
+  <rect x="590" y="300" width="250" height="180" fill="#1e2a38"/>
+  
+  <circle cx="650" cy="380" r="60" fill="#335eea"/>
+  <circle cx="740" cy="380" r="60" fill="#ff6584" opacity="0.5"/>
+  <circle cx="830" cy="380" r="60" fill="#f4a300" opacity="0.2"/>
+  
+  <rect x="630" y="430" width="30" height="30" fill="#3f3d56"/>
+  <rect x="660" y="430" width="30" height="30" fill="#3f3d56" opacity="0.5"/>
+  <rect x="690" y="430" width="30" height="30" fill="#3f3d56" opacity="0.2"/>
+  
+  <!-- Decorative Paths -->
+  <path d="M400 500 Q420 530 440 500 T460 500" fill="none" stroke="#ff6584" stroke-width="3"/>
+  <path d="M500 550 C520 580 530 560 540 530" fill="none" stroke="#2f2e41" stroke-width="3"/>
+  
+  <!-- Additional Shapes -->
+  <ellipse cx="100" cy="350" rx="50" ry="20" fill="#ffb9b9"/>
+  <ellipse cx="950" cy="450" rx="80" ry="10" fill="#3f3d56"/>
+  
+  <circle cx="950" cy="250" r="20" fill="#2f2e41"/>
+  
+  <rect x="780" y="550" width="60" height="30" fill="#b1e5f0"/>
+  <rect x="850" y="580" width="50" height="30" fill="#ff6584"/>
+  
+  <!-- Gradient Background Rectangles -->
+  <rect x="30" y="470" width="250" height="100" fill="url(#grad1)" opacity="0.8"/>
+  <rect x="780" y="480" width="150" height="100" fill="url(#grad2)" opacity="0.7"/>
+  
+  <!-- Linear Gradient Definitions -->
+  <defs>
+    <linearGradient id="grad1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" style="stop-color:#f4a300;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff6584;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" style="stop-color:#335eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2f2e41;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+</svg>
