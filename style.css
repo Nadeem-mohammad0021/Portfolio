@@ -244,7 +244,7 @@ img { display: block; max-width: 100%; }
 .badge { background: rgba(53, 208, 186, 0.15); color: var(--brand); font-size: 0.75rem; font-weight: 600; padding: 5px 12px; border-radius: 50px; }
 .project-card h3 { font-size: 1.2rem; margin-bottom: 10px; }
 .project-card p { color: var(--muted); font-size: 0.92rem; margin-bottom: 16px; flex: 1; }
-.project-links { margin-top: 14px; }
+.project-links { margin-top: 14px; display: flex; gap: 20px; flex-wrap: wrap; }
 .project-links a { text-decoration: none; color: var(--brand); font-weight: 600; font-size: 0.9rem; }
 .project-links a:hover { color: var(--text); }
 .project-cta {
