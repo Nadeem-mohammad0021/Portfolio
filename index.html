@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+          content="Mohammad Nadeem — Computer Science (Data Science) undergraduate portfolio showcasing machine learning, data analysis and web development projects.">
+    <title>Mohammad Nadeem | Data Science & Web Development Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+          integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="scroll-progress" id="scrollProgress"></div>
+    <!-- ===== Navbar ===== -->
+    <header class="header" id="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">
+                <span class="logo-text">Mohammad Nadeem</span>
+            </a>
+            <div class="hamburger" id="hamburger" aria-label="Toggle menu" role="button" tabindex="0">
+                <i class="fas fa-bars hamburger-icon"></i>
+                <i class="fas fa-times cross-icon"></i>
+            </div>
+            <div class="menu" id="menu">
+                <ul class="menu-list">
+                    <li class="menu-list-items"><a class="links active" href="#home">Home</a></li>
+                    <li class="menu-list-items"><a class="links" href="#about">About</a></li>
+                    <li class="menu-list-items"><a class="links" href="#skills">Skills</a></li>
+                    <li class="menu-list-items"><a class="links" href="#projects">Projects</a></li>
+                    <li class="menu-list-items"><a class="links" href="#experience">Experience</a></li>
+                    <li class="menu-list-items"><a class="links" href="#contact">Contact</a></li>
+                    <li class="menu-list-items">
+                        <a class="btn btn-nav" href="Mohammad_Nadeem_Resume.pdf" target="_blank" rel="noopener">Resume</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ===== Hero ===== -->
+    <section id="home" class="hero">
+        <div class="container hero-inner">
+            <div class="hero-text reveal">
+                <p class="hero-kicker">Hello, I'm</p>
+                <h1 class="hero-title">Mohammad <span class="accent">Nadeem</span></h1>
+                <h2 class="hero-subtitle">
+                    <span id="typed"></span><span class="cursor">|</span>
+                </h2>
+                <p class="hero-desc">
+                    Detail-oriented Computer Science &amp; Engineering undergraduate specialising in Data
+                    Science. I build reliable machine-learning models, clean and validate data, and craft
+                    responsive web applications.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="https://wa.me/447466399483?text=Hi%20Nadeem%2C%20I%20visited%20your%20portfolio%20and%20would%20love%20to%20connect%20with%20you%21" target="_blank" rel="noopener" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp Me</a>
+                </div>
+                <div class="hero-socials">
+                    <a href="https://wa.me/447466399483?text=Hi%20Nadeem%2C%20I%20visited%20your%20portfolio%20and%20would%20love%20to%20connect%20with%20you%21" target="_blank" rel="noopener" aria-label="WhatsApp" class="social-wa"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://www.linkedin.com/in/nadeem-mohammad-8bab72261/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/Nadeem-mohammad0021" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="mailto:nadeemmohammad.0021@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="hero-media reveal">
+                <div class="profile-frame">
+                    <img src="Images/img.PNG" alt="Mohammad Nadeem">
+                </div>
+            </div>
+        </div>
+        <div class="hero-stats container">
+            <div class="stat"><span class="stat-num">3</span><span class="stat-label">Internships</span></div>
+            <div class="stat"><span class="stat-num">5+</span><span class="stat-label">Projects</span></div>
+            <div class="stat"><span class="stat-num">8</span><span class="stat-label">Certifications</span></div>
+            <div class="stat"><span class="stat-num">7.72</span><span class="stat-label">CGPA</span></div>
+        </div>
+    </section>
+
+    <!-- ===== About ===== -->
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="section-head reveal">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-sub">Who I am and what I do</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-text reveal">
+                    <p class="lead">
+                        I'm a passionate software engineer and technology enthusiast focused on building
+                        scalable, impactful solutions across data science and web development.
+                    </p>
+                    <p>
+                        My specialisation covers data preprocessing, exploratory data analysis, machine
+                        learning, and full front-end to back-end web development. I enjoy identifying data
+                        quality issues, debugging workflows, validating outputs, and testing application
+                        functionality to deliver trustworthy, data-driven results.
+                    </p>
+                    <p>
+                        I thrive on learning new technologies and contributing to open-source, collaborating
+                        with teams, and mentoring the next generation of tech enthusiasts.
+                    </p>
+                    <a href="Mohammad_Nadeem_Resume.pdf" target="_blank" rel="noopener" class="btn btn-primary">Download Resume</a>
+                </div>
+                <div class="about-facts reveal">
+                    <div class="fact"><i class="fas fa-graduation-cap"></i>
+                        <div><h4>B.Tech CSE — Data Science</h4><p>KPRIT · 2022–2026 · CGPA 7.72</p></div>
+                    </div>
+                    <div class="fact"><i class="fas fa-location-dot"></i>
+                        <div><h4>Location</h4><p>India · Open to remote</p></div>
+                    </div>
+                    <div class="fact"><i class="fas fa-code"></i>
+                        <div><h4>Focus</h4><p>Machine Learning · Data Analysis · Web Dev</p></div>
+                    </div>
+                    <div class="fact"><i class="fas fa-briefcase"></i>
+                        <div><h4>Availability</h4><p>Seeking internships &amp; entry-level roles</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Skills ===== -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <div class="section-head reveal">
+                <h2 class="section-title">Technical Skills</h2>
+                <p class="section-sub">Tools and technologies I work with</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card reveal">
+                    <div class="skill-icon"><i class="fas fa-laptop-code"></i></div>
+                    <h3>Programming</h3>
+                    <ul class="tag-list">
+                        <li>Python</li><li>Java</li><li>SQL</li><li>JavaScript</li><li>HTML</li><li>CSS</li>
+                    </ul>
+                </div>
+                <div class="skill-card reveal">
+                    <div class="skill-icon"><i class="fas fa-chart-pie"></i></div>
+                    <h3>Data Analysis</h3>
+                    <ul class="tag-list">
+                        <li>Pandas</li><li>NumPy</li><li>Matplotlib</li><li>Seaborn</li><li>EDA</li><li>Data Cleaning</li><li>Data Validation</li>
+                    </ul>
+                </div>
+                <div class="skill-card reveal">
+                    <div class="skill-icon"><i class="fas fa-brain"></i></div>
+                    <h3>Machine Learning</h3>
+                    <ul class="tag-list">
+                        <li>Scikit-learn</li><li>TensorFlow</li><li>Keras</li><li>CNN</li><li>NLP</li><li>Model Evaluation</li><li>Feature Selection</li>
+                    </ul>
+                </div>
+                <div class="skill-card reveal">
+                    <div class="skill-icon"><i class="fas fa-bug"></i></div>
+                    <h3>Testing &amp; Debugging</h3>
+                    <ul class="tag-list">
+                        <li>Data Quality Checks</li><li>Output Validation</li><li>Error Identification</li><li>Code Debugging</li><li>Functional Testing</li>
+                    </ul>
+                </div>
+                <div class="skill-card reveal">
+                    <div class="skill-icon"><i class="fas fa-toolbox"></i></div>
+                    <h3>Frameworks &amp; Tools</h3>
+                    <ul class="tag-list">
+                        <li>Flask</li><li>Django</li><li>Git</li><li>GitHub</li><li>Jupyter</li><li>VS Code</li><li>Chrome DevTools</li><li>GCP</li>
+                    </ul>
+                </div>
+                <div class="skill-card reveal">
+                    <div class="skill-icon"><i class="fas fa-lightbulb"></i></div>
+                    <h3>Core Competencies</h3>
+                    <ul class="tag-list">
+                        <li>Problem Solving</li><li>Analytical Thinking</li><li>Data Reliability</li><li>Performance Optimisation</li><li>Collaboration</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Projects ===== -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <div class="section-head reveal">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-sub">A selection of things I've built</p>
+            </div>
+            <div class="projects-grid">
+                <article class="project-card reveal">
+                    <div class="project-top"><i class="fas fa-robot"></i><span class="badge">500+ Reviews</span></div>
+                    <h3>ChatGPT Review Sentiment Model</h3>
+                    <p>Sentiment analysis of 500+ user reviews comparing VADER and TextBlob, generating
+                        visual insights with Matplotlib and Seaborn.</p>
+                    <ul class="tag-list"><li>Python</li><li>VADER</li><li>TextBlob</li><li>Pandas</li><li>Matplotlib</li></ul>
+                    <div class="project-links">
+                        <a href="https://github.com/Nadeem-mohammad0021/chatgpt-user-review-sentiment-prediction" target="_blank" rel="noopener"><i class="fab fa-github"></i> Code</a>
+                    </div>
+                </article>
+
+                <article class="project-card reveal">
+                    <div class="project-top"><i class="fas fa-stethoscope"></i><span class="badge">85% Accuracy</span></div>
+                    <h3>DermAI Assistant</h3>
+                    <p>Smart dermatology diagnostic tool — a CNN-based image-classification app for skin
+                        disease prediction, served through a Flask web interface.</p>
+                    <ul class="tag-list"><li>Python</li><li>Flask</li><li>CNN</li><li>TensorFlow</li><li>OpenCV</li></ul>
+                    <div class="project-links">
+                        <a href="https://github.com/Nadeem-mohammad0021/DermAI-Assistant" target="_blank" rel="noopener"><i class="fab fa-github"></i> Code</a>
+                    </div>
+                </article>
+
+                <article class="project-card reveal">
+                    <div class="project-top"><i class="fas fa-user-shield"></i><span class="badge">90% Accuracy</span></div>
+                    <h3>Criminal Face Recognition System</h3>
+                    <p>Face-recognition application using Python and OpenCV for real-time recognition with
+                        alert functionality that responds to input images.</p>
+                    <ul class="tag-list"><li>Python</li><li>OpenCV</li><li>Face Recognition</li><li>HTML/CSS/JS</li></ul>
+                    <div class="project-links">
+                        <a href="https://github.com/Nadeem-mohammad0021/criminal-face-recognition" target="_blank" rel="noopener"><i class="fab fa-github"></i> Code</a>
+                    </div>
+                </article>
+
+                <article class="project-card reveal">
+                    <div class="project-top"><i class="fas fa-users"></i></div>
+                    <h3>We2Work</h3>
+                    <p>Team-collaboration web platform with task tracking, messaging, and project-progress
+                        dashboards that reflect live application data.</p>
+                    <ul class="tag-list"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Flask / Node.js</li></ul>
+                    <div class="project-links">
+                        <a href="https://github.com/Nadeem-mohammad0021/we2work" target="_blank" rel="noopener"><i class="fab fa-github"></i> Code</a>
+                    </div>
+                </article>
+
+                <article class="project-card reveal">
+                    <div class="project-top"><i class="fas fa-id-card-clip"></i></div>
+                    <h3>Personal Portfolio Website</h3>
+                    <p>This responsive portfolio — showcasing projects and certifications with a modern,
+                        mobile-friendly layout built from scratch.</p>
+                    <ul class="tag-list"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+                    <div class="project-links">
+                        <a href="https://github.com/Nadeem-mohammad0021/Portfolio" target="_blank" rel="noopener"><i class="fab fa-github"></i> Code</a>
+                    </div>
+                </article>
+
+                <div class="project-cta reveal">
+                    <p>Want to see more of my work?</p>
+                    <a href="https://github.com/Nadeem-mohammad0021" target="_blank" rel="noopener" class="btn btn-primary">Visit GitHub <i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Experience ===== -->
+    <section id="experience" class="section experience">
+        <div class="container">
+            <div class="section-head reveal">
+                <h2 class="section-title">Experience</h2>
+                <p class="section-sub">Where I've worked and learned</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <span class="timeline-date">May – Jun 2024 · Remote</span>
+                        <h3>Software Engineer Intern — Data Science</h3>
+                        <p class="timeline-org">SAK Informatics</p>
+                        <ul>
+                            <li>Prepared and managed datasets, checking quality and consistency before analysis.</li>
+                            <li>Performed preprocessing and reviewed data for missing values, duplicates and inconsistencies.</li>
+                            <li>Validated outputs to improve reliability of analytical workflows.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <span class="timeline-date">Mar – Apr 2024 · Remote</span>
+                        <h3>Software Engineer Intern — Web Development</h3>
+                        <p class="timeline-org">CodSoft</p>
+                        <ul>
+                            <li>Developed three responsive websites focusing on usability and layout consistency.</li>
+                            <li>Debugged front-end issues across HTML, CSS and JavaScript.</li>
+                            <li>Used GitHub for version control and reviewed layouts across screen sizes.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <span class="timeline-date">Jan – Feb 2024 · Remote</span>
+                        <h3>Software Engineer Intern — Data Science</h3>
+                        <p class="timeline-org">Prodigy Infotech</p>
+                        <ul>
+                            <li>Performed exploratory data analysis to understand structure and relationships.</li>
+                            <li>Prepared data for machine learning and checked preprocessing consistency.</li>
+                            <li>Evaluated modelling results to identify feature-selection issues.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cert-block reveal">
+                <h3 class="cert-title"><i class="fas fa-award"></i> Certifications</h3>
+                <ul class="cert-list">
+                    <li class="cert-item" role="button" tabindex="0" data-type="pdf" data-file="certificates/SAK.pdf" data-title="Data Science Internship — SAK Informatics">
+                        <span class="cert-name"><i class="fas fa-award"></i> Data Science Internship — SAK Informatics</span>
+                        <span class="cert-year">2024 <i class="fas fa-magnifying-glass-plus"></i></span></li>
+                    <li class="cert-item" role="button" tabindex="0" data-type="pdf" data-file="certificates/CodSoft.pdf" data-title="Web Development Internship — CodSoft">
+                        <span class="cert-name"><i class="fas fa-award"></i> Web Development Internship — CodSoft</span>
+                        <span class="cert-year">2024 <i class="fas fa-magnifying-glass-plus"></i></span></li>
+                    <li class="cert-item" role="button" tabindex="0" data-type="pdf" data-file="certificates/Prodigy.pdf" data-title="Data Science Internship — Prodigy Infotech">
+                        <span class="cert-name"><i class="fas fa-award"></i> Data Science Internship — Prodigy Infotech</span>
+                        <span class="cert-year">2024 <i class="fas fa-magnifying-glass-plus"></i></span></li>
+                    <li class="cert-item" role="button" tabindex="0" data-type="pdf" data-file="certificates/learnathon.pdf" data-title="Learnathon — ICT Academy">
+                        <span class="cert-name"><i class="fas fa-award"></i> Learnathon — ICT Academy</span>
+                        <span class="cert-year">2024 <i class="fas fa-magnifying-glass-plus"></i></span></li>
+                    <li class="cert-item" role="button" tabindex="0" data-type="img" data-file="certificates/AI.png" data-title="Generative AI — GUVI">
+                        <span class="cert-name"><i class="fas fa-award"></i> Generative AI — GUVI</span>
+                        <span class="cert-year">2024 <i class="fas fa-magnifying-glass-plus"></i></span></li>
+                    <li class="cert-item" role="button" tabindex="0" data-type="img" data-file="certificates/PyGame.PNG" data-title="Game Development using PyGame — GUVI">
+                        <span class="cert-name"><i class="fas fa-award"></i> Game Development using PyGame — GUVI</span>
+                        <span class="cert-year">2024 <i class="fas fa-magnifying-glass-plus"></i></span></li>
+                    <li class="cert-item" role="button" tabindex="0" data-type="img" data-file="certificates/Python.PNG" data-title="Python Programming — GUVI">
+                        <span class="cert-name"><i class="fas fa-award"></i> Python Programming — GUVI</span>
+                        <span class="cert-year">2023 <i class="fas fa-magnifying-glass-plus"></i></span></li>
+                    <li class="cert-item" role="button" tabindex="0" data-type="img" data-file="certificates/HTML.jpeg" data-title="HTML — Great Learning Academy">
+                        <span class="cert-name"><i class="fas fa-award"></i> HTML — Great Learning Academy</span>
+                        <span class="cert-year">2023 <i class="fas fa-magnifying-glass-plus"></i></span></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <div class="section-head reveal">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-sub">Have a project or opportunity in mind? Let's talk.</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info reveal">
+                    <div class="contact-line"><i class="fas fa-envelope"></i>
+                        <a href="mailto:nadeemmohammad.0021@gmail.com">nadeemmohammad.0021@gmail.com</a></div>
+                    <div class="contact-line"><i class="fas fa-phone"></i>
+                        <a href="tel:+447466399483">+44 07466399483</a></div>
+                    <div class="contact-line"><i class="fab fa-whatsapp social-wa"></i>
+                        <a href="https://wa.me/447466399483?text=Hi%20Nadeem%2C%20I%20visited%20your%20portfolio%20and%20would%20love%20to%20connect%20with%20you%21" target="_blank" rel="noopener">Chat on WhatsApp</a></div>
+                    <div class="contact-line"><i class="fab fa-linkedin-in"></i>
+                        <a href="https://www.linkedin.com/in/nadeem-mohammad0211/" target="_blank" rel="noopener">linkedin.com/in/nadeem-mohammad0211</a></div>
+                    <div class="contact-line"><i class="fab fa-github"></i>
+                        <a href="https://github.com/Nadeem-mohammad0021" target="_blank" rel="noopener">github.com/Nadeem-mohammad0021</a></div>
+                    <div class="contact-socials">
+                        <a href="https://wa.me/447466399483?text=Hi%20Nadeem%2C%20I%20visited%20your%20portfolio%20and%20would%20love%20to%20connect%20with%20you%21" target="_blank" rel="noopener" class="social-wa"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://www.linkedin.com/in/nadeem-mohammad0211/" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/Nadeem-mohammad0021" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+                        <a href="mailto:nadeemmohammad.0021@gmail.com"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Footer ===== -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <p>Copyright © 2026 All rights reserved | Built by
+                <a href="https://github.com/Nadeem-mohammad0021" target="_blank" rel="noopener"><b>Mohammad Nadeem</b></a>
+            </p>
+            <div class="footer-socials">
+                <a href="https://wa.me/447466399483?text=Hi%20Nadeem%2C%20I%20visited%20your%20portfolio%20and%20would%20love%20to%20connect%20with%20you%21" target="_blank" rel="noopener" class="social-wa"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://www.linkedin.com/in/nadeem-mohammad0211/" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/Nadeem-mohammad0021" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+                <a href="mailto:nadeemmohammad.0021@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===== Certificate viewer modal ===== -->
+    <div class="cert-modal" id="certModal" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="certModalTitle">
+        <div class="cert-modal-box">
+            <div class="cert-modal-head">
+                <h4 id="certModalTitle">Certificate</h4>
+                <button class="cert-modal-close" id="certModalClose" aria-label="Close certificate"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="cert-modal-body" id="certModalBody"></div>
+            <p class="cert-modal-note"><i class="fas fa-lock"></i> View-only — downloading, printing and screenshots are disabled.</p>
+        </div>
+    </div>
+
+    <div class="floating-actions">
+        <a href="https://wa.me/447466399483?text=Hi%20Nadeem%2C%20I%20visited%20your%20portfolio%20and%20would%20love%20to%20connect%20with%20you%21" target="_blank" rel="noopener" class="whatsapp-fab" aria-label="Chat on WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        <button class="back-to-top" id="backToTop" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
